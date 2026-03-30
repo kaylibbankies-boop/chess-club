@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item {
+  transition: all 0.2s;
+}
+.nav-item:hover {
+  background-color: #27272a;
+}
+.nav-item.active {
+  background-color: #3f2a1e;
+  color: #fcd34d;
+  font-weight: 600;
+}
+
+.stat-card {
+  background-color: #18181b;
+  border: 1px solid #3f3f46;
+}
